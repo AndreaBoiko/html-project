@@ -12,7 +12,7 @@
 </head>
 <body>
   <div class="app-wrapper">
-    <header class="header-content">
+    <header class="header-container">
         
         <div class="hamburger-menu">
             <input id="menu__toggle" type="checkbox" />
@@ -35,11 +35,11 @@
         <h1 class="header__title">Andrii Boiko Photo</h1>
 
     </header>
-    <main class="main-content">
-      <div>
-      <h2 class="title__gallery">Gallery</h2>
-    </div>
-    
+
+    <main>
+    <div class="main-container">
+      
+    <h2 class="title__gallery">Gallery</h2>
 
     <div class="image-slider swiper-container">
           <div class="image-slider__wrapper swiper-wrapper">
@@ -73,10 +73,18 @@
             <div class="swiper-button-next"></div>
             <div class="swiper-pagination"></div>
         </div>
+      </div>
     </main>
     
     <footer>
-        <h3> contacts</h3>
+        <div class="footer-container">
+          <div class="contacts">
+            <h3 class="contacts-title">Contacts</h3>
+            <div class="contacts__phone">
+              <img class="contact-phone__img" src="https://cdn-icons-png.flaticon.com/512/455/455705.png" alt="contact-img">
+              <a class="contact-link" href="tel:+393881117064">+39 (388) 111-79-64</a></div>
+          </div>
+          </div>
     </footer>
   </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
