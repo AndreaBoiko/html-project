@@ -387,6 +387,19 @@ flex-direction: column;
     padding: 0;
   }
 
+  .gmap_canvas {overflow:hidden;background:none!important;height:150px;width:150px;}
+
+  .mapouter{position:relative;text-align:right;height:150px;width:150px;}
+
+  #gmap_canvas{
+    height: 150px;
+    width: 150px;
+    frameborder: 0;
+    scrolling: no;
+    marginheight: 0;
+    marginwidth: 0;
+  }
+
   @media (max-width: 900px){
     .contacts-title{
       font-size: 18px;
