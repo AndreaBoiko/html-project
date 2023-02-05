@@ -4,24 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BoikoPh</title>
     <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/711/711191.png" type="image/x-icon">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 </head>
 <body>
-    <header class="header-container">
+    <header class="header">
         
         <div class="hamburger-menu">
             <input id="menu__toggle" type="checkbox" />
             <label class="menu__btn" for="menu__toggle">
-              <span></span>
+            <span></span>
             </label>
             <ul class="menu__box">
-              <li><a class="menu__item" href="#">Головна</a></li>
+              <li><a class="menu__item" href="index.html">Головна</a></li>
               <li><a class="menu__item" href="#">Проекти</a></li>
-              <li><a class="menu__item" href="#">Команда</a></li>
+              <li><a class="menu__item" href="team.html">Команда</a></li>
               <li><a class="menu__item" href="#">Галерея</a></li>
               <li><a class="menu__item" href="#contacts">Контакти</a></li>
             </ul>
@@ -32,96 +32,116 @@
         </div>
 
         <h1 class="header__title">Andrii Boiko Photo</h1>
+        <span class="header__line"></span>
 
     </header>
 
-    <main>
-    <div class="main-container">
+    <main class="main">
       
-    <h2 class="title__gallery">Gallery</h2>
-
-    <div class="image-slider swiper-container">
+    <div class="gallery">
+      
+      <h2 class="gallery__title">Gallery</h2>
+            
+        <div class="image-slider swiper-container">
           <div class="image-slider__wrapper swiper-wrapper">
+            
             <div class="image-slider__slide swiper-slide">
               <div class="image-slider__image">
                 <img class="slider-image" src="img/DSC_0436.jpg" alt="img">
               </div>
             </div>
+            
             <div class="image-slider__slide swiper-slide">
               <div class="image-slider__image">
                 <img class="slider-image" src="img/DSC_0470.jpg" alt="img">
               </div>
             </div>
+            
             <div class="image-slider__slide swiper-slide">
               <div class="image-slider__image">
                 <img class="slider-image" src="img/DSC_0046.jpg" alt="img">
               </div>
             </div>
+            
             <div class="image-slider__slide swiper-slide">
               <div class="image-slider__image">
                 <img class="slider-image" src="img/DSC_0430.jpg" alt="img">
               </div>
             </div>
+            
             <div class="image-slider__slide swiper-slide">
               <div class="image-slider__image">
                 <img class="slider-image" src="img/DSC_0444.jpg" alt="img">
               </div>
             </div>
+          
           </div>
           <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
             <div class="swiper-pagination"></div>
         </div>
 
-        <div class="about-container">
-          <h2 class="about-title">About US</h2>
-          <p class="about__text">
-            We are a young team, we have been doing photography for several years. We have already done a lot of work in different industries, below is a list of the work done. We work in Milan, if you want to work in other regions <a href="#contacts">contact us</a></p>
+      </div>
 
-            <div class="work-done">
-              <div class="work1">
-                <h4>Model book photos</h4>
-                <div class="card-work">
-                  <img class="work-img" src="img/photo_2023-02-03_15-24-31.jpg" alt="work-img">
-                </div>
+        <div class="about">
+
+            <img class="about__img" src="img/about-img.jpg" alt="img">
+
+          <div class="about__info">
+          
+            <h2 class="about__title">About US</h2>
+          
+           <p class="about__text">
+            We are a young team, we have been doing photography for several years. We have already done a lot of work in different industries, below is a list of the work done. We work in Milan, if you want to work in other regions <a href="#contacts">contact us</a>
+            </p>
+
+          </div>
+
+          </div>
+
+            <div class="about__work">
+              
+              <div class="about__work-card">
+                <h4 class="about__work-title">Model book photos</h4>
+                  <img class="about__work-img" src="img/photo_2023-02-03_15-24-31.jpg" alt="work-img">
               </div>
-              <div class="work1">
-                <h4>Wedding photos</h4>
-                <div class="card-work">
-                  <img class="work-img" src="img/DSC_2840b&w.jpg" alt="work-img">
-                </div>
+              
+              <div class="about__work-card">
+                <h4 class="about__work-title">Wedding photos</h4>
+                  <img class="about__work-img" src="img/DSC_2840b&w.jpg" alt="work-img">
               </div>
-              <div class="work1">
-                <h4>Birthday photos</h4>
-                <div class="card-work">
-                  <img class="work-img" src="img/DSC_6665.jpg" alt="work-img">
-                </div>
+              
+              <div class="about__work-card">
+                <h4 class="about__work-title">Birthday photos</h4>
+                  <img class="about__work-img" src="img/DSC_6665.jpg" alt="work-img">
               </div>
-              <div class="work1">
-                <h4>Street photos</h4>
-                <div class="card-work">
-                  <img class="work-img" src="img/DSC_8228.jpg" alt="work-img">
-                </div>
+              
+              <div class="about__work-card">
+                <h4 class="about__work-title">Street photos</h4>
+                  <img class="about__work-img" src="img/DSC_8228.jpg" alt="work-img">
               </div>
             </div>
-        </div>
-      </div>
     </main>
     
-    <footer>
-        <div class="footer-container">
-          <div id="contacts">
-            <h3 class="contacts-title">Contacts</h3>
-            <div class="contacts__adress">
-              <img class="contact-adress__img" src="https://cdn-icons-png.flaticon.com/512/455/455705.png" alt="contact-img">
-              <a class="contact-link" href="tel:+393881117064">+39 (388) 111-79-64</a></div>
-              <div class="contacts__adress">
-                <img class="contact-adress__img" src="https://cdn-icons-png.flaticon.com/512/3178/3178158.png" alt="contact-img">
-                <a class="contact-link" href="mailto:andriy.boyko35@gmail.com">andriy.boyko35@gmail.com</a></div>
-                <div class="contacts__adress">
-                  <img class="contact-adress__img" src="https://cdn-icons-png.flaticon.com/512/1384/1384015.png" alt="contact-img">
-                  <a class="contact-link" href="https://instagram.com/andreaboykoph?igshid=YmMyMTA2M2Y=">andreaboykoph</a></div>
+    <footer class="footer">
+        
+      <div id="contacts">
+            
+            <h3 class="contacts__title">Contacts</h3>
+            
+            <div class="contacts__address">
+              <img class="contact__address-img" src="https://cdn-icons-png.flaticon.com/512/455/455705.png" alt="contact-img">
+              <a class="contact__address-link" href="tel:+393881117064">+39 (388) 111-79-64</a></div>
+              
+            <div class="contacts__address">
+              <img class="contact__address-img" src="https://cdn-icons-png.flaticon.com/512/3178/3178158.png" alt="contact-img">
+              <a class="contact__address-link" href="mailto:andriy.boyko35@gmail.com">andriy.boyko35@gmail.com</a></div>
+                
+            <div class="contacts__address">
+               <img class="contact__address-img" src="https://cdn-icons-png.flaticon.com/512/1384/1384015.png" alt="contact-img">
+               <a class="contact__address-link" href="https://instagram.com/andreaboykoph?igshid=YmMyMTA2M2Y=">andreaboykoph</a></div>
             </div>
+            
             <div class="maps">
              <div class="mapouter">
               <div class="gmap_canvas">
@@ -130,7 +150,7 @@
               <a href="https://www.embedgooglemap.net">google maps code</a></div></div>
               <p class="maps-text">Location</p>
             </div>
-        </div>
+        
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
