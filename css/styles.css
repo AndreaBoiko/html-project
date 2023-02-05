@@ -386,9 +386,7 @@ flex-direction: column;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 20px;
     background-color: white;
-    border-radius: 30px;
     padding: 10px;
   }
 
@@ -446,9 +444,6 @@ flex-direction: column;
   }
 
   @media (max-width: 900px){
-    .footer{
-      border-radius: 15px;
-    }
     .contacts__title{
       font-size: 18px;
     }
@@ -463,8 +458,6 @@ flex-direction: column;
       flex-direction: column-reverse;
       justify-content: center;
       align-items: center;
-      margin-top: 10px;
-      border-radius: 10px;
     }
     .contacts__title{
       font-size: 14px;
