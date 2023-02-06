@@ -29,7 +29,7 @@
     </div>
 
     <div>
-      <img class="header__img" src="img/DSC_452916x9.jpg" alt="header_img">
+      <img class="header__img" src="img/header-img.jpg" alt="header_img">
     </div>
 
     <h1 class="header__title">Andrii Boiko Photo</h1>
@@ -39,7 +39,7 @@
 
   <main class="main">
 
-    <div class="about">
+    <section class="about">
       <img class="about__img" src="img/about-img.jpg" alt="img">
       <div class="about__info">
         <h2 class="about__title">Про нас</h2>
@@ -51,32 +51,32 @@
         <br>
         <p class="about__text">Знизу зможете знайти приклади наших робіт.</p>
       </div>
-    </div>
+    </section>
 
-    <div class="about__work">
+    <section class="about__work">
       <div class="about__work-card">
         <h4 class="about__work-title">Модельна книжка</h4>
-        <img class="about__work-img" src="img/photo_2023-02-03_15-24-31.jpg" alt="work-img">
+        <img class="about__work-img" src="img/about-work1.jpg" alt="work-img">
       </div>
 
       <div class="about__work-card">
         <h4 class="about__work-title">Стріт фото</h4>
-        <img class="about__work-img" src="img/work8.jpg" alt="work-img">
+        <img class="about__work-img" src="img/about-work2.jpg" alt="work-img">
       </div>
 
       <div class="about__work-card">
         <h4 class="about__work-title">Весільна фотографія</h4>
-        <img class="about__work-img" src="img/work10.jpg" alt="work-img">
+        <img class="about__work-img" src="img/about-work3.jpg" alt="work-img">
       </div>
 
       <div class="about__work-card">
         <h4 class="about__work-title">Дні народження</h4>
-        <img class="about__work-img" src="img/work9.jpg" alt="work-img">
+        <img class="about__work-img" src="img/about-work4.jpg" alt="work-img">
       </div>
 
-    </div>
+    </section>
 
-    <div class="gallery">
+    <section class="gallery">
 
       <h2 class="gallery__title">Галерея</h2>
 
@@ -85,31 +85,37 @@
 
           <div class="image-slider__slide swiper-slide">
             <div class="image-slider__image">
-              <img class="slider-image" src="img/DSC_0436.jpg" alt="img">
+              <img class="slider-image" src="img/gallery1.jpg" alt="img">
             </div>
           </div>
 
           <div class="image-slider__slide swiper-slide">
             <div class="image-slider__image">
-              <img class="slider-image" src="img/DSC_0470.jpg" alt="img">
+              <img class="slider-image" src="img/gallery2.jpg" alt="img">
             </div>
           </div>
 
           <div class="image-slider__slide swiper-slide">
             <div class="image-slider__image">
-              <img class="slider-image" src="img/DSC_0046.jpg" alt="img">
+              <img class="slider-image" src="img/gallery3.jpg" alt="img">
             </div>
           </div>
 
           <div class="image-slider__slide swiper-slide">
             <div class="image-slider__image">
-              <img class="slider-image" src="img/DSC_0430.jpg" alt="img">
+              <img class="slider-image" src="img/gallery4.jpg" alt="img">
             </div>
           </div>
 
           <div class="image-slider__slide swiper-slide">
             <div class="image-slider__image">
-              <img class="slider-image" src="img/DSC_0444.jpg" alt="img">
+              <img class="slider-image" src="img/gallery5.jpg" alt="img">
+            </div>
+          </div>
+
+          <div class="image-slider__slide swiper-slide">
+            <div class="image-slider__image">
+              <img class="slider-image" src="img/gallery6.jpg" alt="img">
             </div>
           </div>
 
@@ -117,7 +123,18 @@
         <div class="swiper-pagination"></div>
       </div>
 
-    </div>
+    </section>
+
+    <section class="contact-us">
+      <img class="contact-us__img" src="img/contact-us.jpg" alt="img contact">
+      <form class="contact-us__form" action="https://formspree.io/f/mqkoevaz" method="post">
+        <input class="contact-us__input" type="text" name="name" placeholder="Ваше ім'я" required >
+        <input class="contact-us__input" type="email" name="email" placeholder="Ел. пошта" required >
+        <input class="contact-us__input" type="tel" name="tel" placeholder="Номер телефона" required >
+        <textarea name="mess" id="" cols="30" rows="10" placeholder="Добавте повідомлення..."></textarea>
+        <input type="submit" value="Відправити">
+      </form>
+    </section>
   </main>
 
   <footer class="footer">

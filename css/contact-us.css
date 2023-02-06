@@ -1,0 +1,16 @@
+.contact-us{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+}
+
+.contact-us__form {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    width: 50%;
+}
+
+.contact-us__img{
+    max-width: 50%;
+}
