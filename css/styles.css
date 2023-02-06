@@ -340,7 +340,7 @@ flex-direction: column;
     .about__work-title{
       position: absolute;
       color: white;
-      bottom: 0;
+      top: 0;
       margin: 0;
       padding: 0 10px 0 10px;
       font-size: 45px;
