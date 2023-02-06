@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap');
+
+@import url(burger.css);
+@import url(header.css);
+@import url(about.css);
+@import url(gallery.css);
+@import url(footer.css);
+
+:root {
+  scroll-behavior: smooth;
+  --text-color: #333;
+  --card-color: #ECEFF1;
+  --shadow-color: #CFD8DC;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*----------------------------------------------------------------------*/
+
+.main {
+  margin-top: 150px;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+}
+
+/*----------------------------------------------------------------------*/
