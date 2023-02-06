@@ -216,6 +216,7 @@ flex-direction: column;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
+    position: relative;
     min-width: 0;
   }
 
@@ -223,8 +224,15 @@ flex-direction: column;
     text-align: center;
     font-weight: 600;
     font-size: 50px;
-    color: #333;
+    color: white;
+    background-color: #333;
+    padding: 0 10px 0 10px;
+    position: absolute;
+    top: 0;
+    margin: 0;
+    z-index: 2;
   }
+
 
 .image-slider {
   padding-bottom: 30px ;
@@ -243,7 +251,7 @@ flex-direction: column;
 }
 
 .slider-image{
-  max-width: 80%;
+  max-width: 100%;
 }
 
 
@@ -461,11 +469,6 @@ flex-direction: column;
 
 
   @media (max-width: 600px){
-    .footer{
-      flex-direction: column-reverse;
-      justify-content: center;
-      align-items: center;
-    }
     .contacts__title{
       font-size: 14px;
     }
