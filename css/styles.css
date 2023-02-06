@@ -400,9 +400,9 @@ flex-direction: column;
   .footer{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: white;
-    padding: 10px;
+    padding-bottom: 20px;
   }
 
   #contacts{
@@ -410,7 +410,8 @@ flex-direction: column;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    margin-left: 50px;
+    margin-right: 20px;
+    
   }
 
   .contacts__title{
@@ -441,6 +442,7 @@ flex-direction: column;
     background-color: #ECEFF1;
     padding: 10px 10px 0 10px;
     border-radius: 5px;
+    margin-left: 20px;
   }
 
   .maps-text {
@@ -474,6 +476,13 @@ flex-direction: column;
     }
     .contacts__address a{
       font-size: 10px;
+    }
+    .maps{
+      margin-left: 0;
+    }
+
+    #contcts{
+      margin-left: 10px;
     }
   
       
