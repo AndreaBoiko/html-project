@@ -11,7 +11,7 @@
     width: 30px;
     height: 30px;
     cursor: pointer;
-    z-index: 3;
+    z-index: 4;
 }
 
 .menu__btn>span,
@@ -49,7 +49,7 @@
     text-align: center;
     background-color: var(--card-color);
     box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
-    z-index: 2;
+    z-index: 3;
 }
 
 
@@ -61,7 +61,7 @@
     font-size: 20px;
     font-weight: 600;
     text-decoration: none;
-    z-index: 2;
+    z-index: 3;
 }
 
 .menu__item:hover {

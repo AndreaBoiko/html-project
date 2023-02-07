@@ -82,10 +82,11 @@
         margin-top: 10px;
     }
 
-    .contact-us__input-btn{
+    .contact-us__input-btn {
         padding: 3px 8px 3px 8px;
         width: 100%;
     }
+
     .contact-us__img {
         width: 63%;
     }
@@ -97,7 +98,8 @@
         padding: 2px 0 2px 5px;
         margin-bottom: 4px;
     }
-    .contact-us__input-btn{
+
+    .contact-us__input-btn {
         padding: 2px 5px 2px 5px;
     }
 }
@@ -189,6 +191,7 @@
         font-weight: 400;
         margin-bottom: 5px;
     }
+
     .contact__line {
         height: 1px;
         margin-bottom: 5px;
