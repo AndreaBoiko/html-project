@@ -97,10 +97,32 @@
     .contact-us__input {
         padding: 2px 0 2px 5px;
         margin-bottom: 4px;
+        width: 90%;
     }
 
     .contact-us__input-btn {
         padding: 2px 5px 2px 5px;
+        width: 44%;
+    }
+
+    .contact-us {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-us-container {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+
+    .contact-us__form{
+        width: 50%;
+    }
+
+    .contact-us__img {
+        display: none;
     }
 }
 
