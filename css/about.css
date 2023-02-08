@@ -38,10 +38,28 @@
 
 .about__work-title {
   position: absolute;
-  color: white;
-  background-color: var(--text-color);
-  top: 0;
-  padding: 0 10px 0 10px;
+  background-color: white;
+  text-align: center;
+  border-style: solid;
+  border-width: 0 0 2px 0;
+  border-color: black;
+  width: 80%;
+  bottom: 0;
+  padding: 0 12px 0 12px;
+  font-size: 1.6rem;
 }
+
+.about__work-title-reverse {
+  position: absolute;
+  background-color: white;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px 0 0 0;
+  border-color: black;
+  width: 80%;
+  top: 0;
+  font-size: 1.6rem;
+}
+
 
 
