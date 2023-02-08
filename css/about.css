@@ -41,7 +41,7 @@
   background-color: white;
   text-align: center;
   border-style: solid;
-  border-width: 0 0 2px 0;
+  border-width: 0 0 1px 0;
   border-color: black;
   width: 80%;
   bottom: 0;
@@ -59,6 +59,13 @@
   width: 80%;
   top: 0;
   font-size: 1.6rem;
+}
+
+@media (max-width: 420px) {
+  .about__work-title,
+  .about__work-title-reverse{
+    font-size: 1.4rem;
+  }
 }
 
 

@@ -48,6 +48,7 @@ h2 {
   font-size: 1.8rem;
 }
 
+
 @media (min-width: 500px) {
   :root {
     font-size: 12px;
