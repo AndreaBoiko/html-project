@@ -1,183 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BoikoPh</title>
+    <link
+      rel="shortcut icon"
+      href="https://cdn-icons-png.flaticon.com/128/711/711191.png"
+      type="image/x-icon" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BoikoPh</title>
-  <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/711/711191.png" type="image/x-icon">
-  <link rel="stylesheet" href="css/index.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
-</head>
-
-<body class="app-wrapper">
-  <header class="header">
-
-    <div class="hamburger-menu">
-      <input id="menu__toggle" type="checkbox" />
-      <label class="menu__btn" for="menu__toggle">
-        <span></span>
-      </label>
-      <ul class="menu__box">
-        <li><a class="menu__item" href="index.html">Головна</a></li>
-        <li><a class="menu__item" href="#">Проекти</a></li>
-        <li><a class="menu__item" href="team.html">Команда</a></li>
-        <li><a class="menu__item" href="#">Галерея</a></li>
-        <li><a class="menu__item" href="#contacts">Контакти</a></li>
-      </ul>
-    </div>
-
-    <div>
-      <img class="header__img" src="img/header-img.jpg" alt="header_img">
-    </div>
-
-    <h1 class="header__title">Andrii Boiko Photo</h1>
-    <span class="header__line"></span>
-
-  </header>
-
-  <main class="main">
-
-    <section class="about">
-      <img class="about__img" src="img/about-img.jpg" alt="img">
-      <div class="about__info">
-        <h2 class="about__title">Про нас</h2>
-        <p class="about__text">
-          Ми молода команада яка займається фотографією уже декілька років. За весь час ми вже зробили чи не малу
-          кількість робіт, та залишили таку ж кількість задоволених клієнтів. Працюємо в Мілані та його околицях, якщо
-          маєте необхідність працювати в других регіонах <a href="#contacts">пишіть нам.</a>
-        </p>
-        <br>
-        <p class="about__text">Знизу зможете знайти приклади наших робіт.</p>
-      </div>
-    </section>
-
-    <section class="about__work">
-      <div class="about__work-card">
-        <h4 class="about__work-title">Модельна книжка</h4>
-        <img class="about__work-img" src="img/about-work1.jpg" alt="work-img">
+  <body class="container">
+    <header class="header">
+      <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span>
+        </label>
+        <ul class="menu__box">
+          <li><a class="menu__item" href="index.html">Головна</a></li>
+          <li><a class="menu__item" href="#">Проекти</a></li>
+          <li><a class="menu__item" href="team.html">Команда</a></li>
+          <li><a class="menu__item" href="#">Галерея</a></li>
+          <li><a class="menu__item" href="#contacts">Контакти</a></li>
+        </ul>
       </div>
 
-      <div class="about__work-card">
-        <h4 class="about__work-title">Стріт фото</h4>
-        <img class="about__work-img" src="img/about-work2.jpg" alt="work-img">
+      <div>
+        <img class="header__img" src="img/header-img.jpg" alt="header_img" />
       </div>
 
-      <div class="about__work-card">
-        <h4 class="about__work-title">Весільна фотографія</h4>
-        <img class="about__work-img" src="img/about-work3.jpg" alt="work-img">
-      </div>
+      <h1 class="header__title">Andrii Boiko Photo</h1>
+      <span class="header__line"></span>
+    </header>
 
-      <div class="about__work-card">
-        <h4 class="about__work-title">Дні народження</h4>
-        <img class="about__work-img" src="img/about-work4.jpg" alt="work-img">
-      </div>
-
-    </section>
-
-    <section class="gallery">
-
-      <h2 class="gallery__title">Галерея</h2>
-
-      <div class="image-slider swiper-container">
-        <div class="image-slider__wrapper swiper-wrapper">
-
-          <div class="image-slider__slide swiper-slide">
-            <div class="image-slider__image">
-              <img class="slider-image" src="img/gallery1.jpg" alt="img">
-            </div>
-          </div>
-
-          <div class="image-slider__slide swiper-slide">
-            <div class="image-slider__image">
-              <img class="slider-image" src="img/gallery2.jpg" alt="img">
-            </div>
-          </div>
-
-          <div class="image-slider__slide swiper-slide">
-            <div class="image-slider__image">
-              <img class="slider-image" src="img/gallery3.jpg" alt="img">
-            </div>
-          </div>
-
-          <div class="image-slider__slide swiper-slide">
-            <div class="image-slider__image">
-              <img class="slider-image" src="img/gallery4.jpg" alt="img">
-            </div>
-          </div>
-
-          <div class="image-slider__slide swiper-slide">
-            <div class="image-slider__image">
-              <img class="slider-image" src="img/gallery5.jpg" alt="img">
-            </div>
-          </div>
-
-          <div class="image-slider__slide swiper-slide">
-            <div class="image-slider__image">
-              <img class="slider-image" src="img/gallery6.jpg" alt="img">
-            </div>
-          </div>
-
+    <main class="main">
+      <section class="about">
+        <img class="about__img" src="img/about-img.jpg" alt="img" />
+        <div class="about__info">
+          <h2 class="about__title">Про нас</h2>
+          <p class="about__text">
+            Ми молода команада яка займається фотографією уже декілька років. За весь час ми вже
+            зробили чи не малу кількість робіт, та залишили таку ж кількість задоволених клієнтів.
+            Працюємо в Мілані та його околицях, якщо маєте необхідність працювати в других регіонах
+            <a href="#contacts">пишіть нам.</a>
+          </p>
+          <br />
+          <p class="about__text">Знизу зможете знайти приклади наших робіт.</p>
         </div>
-        <div class="swiper-pagination"></div>
-      </div>
+      </section>
 
-    </section>
-
-    <section class="contact-us">
-      
-      <img class="contact-us__img" src="img/contact-us.jpg" alt="img contact">
-
-      <div class="contact-us-container">
-
-        <div id="contacts">
-          <h3 class="contacts__title">Зв'яжіться з нами</h3>
-          <span class="header__line contact__line"></span>
-          
-          <p class="contact__address-link__location">Via Privata Asti, 5, Milan, Italy</p>
-          
-          <div class="contacts__address">
-            <img class="contact__address-img" src="https://cdn-icons-png.flaticon.com/512/455/455705.png"
-              alt="contact-img">
-            <a class="contact__address-link" href="tel:+393881117064">+39 (388) 111-79-64</a>
-          </div>
-
-          <div class="contacts__address">
-            <img class="contact__address-img" src="https://cdn-icons-png.flaticon.com/512/3178/3178158.png"
-              alt="contact-img">
-            <a class="contact__address-link" href="mailto:andriy.boyko35@gmail.com">andriy.boyko35@gmail.com</a>
-          </div>
-
-          <div class="contacts__address">
-            <img class="contact__address-img" src="https://cdn-icons-png.flaticon.com/512/1384/1384015.png"
-              alt="contact-img">
-            <a class="contact__address-link"
-              href="https://instagram.com/andreaboykoph?igshid=YmMyMTA2M2Y=">andreaboykoph</a>
-          </div>
+      <section class="about__work">
+        <div class="about__work-card">
+          <h2 class="about__work-title">Модельна книжка</h2>
+          <img class="about__work-img" src="img/about-work1.jpg" alt="work-img" />
         </div>
 
-        <form class="contact-us__form" action="https://formspree.io/f/mqkoevaz" method="post">
-          <input class="contact-us__input" type="text" name="name" placeholder="Ваше ім'я" required>
-          <input class="contact-us__input" type="email" name="email" placeholder="Ел. пошта" required>
-          <input class="contact-us__input" type="tel" name="tel" placeholder="Номер телефона" required>
-          <textarea class="contact-us__input contact-us__text-area" name="mess" cols="5" rows="5"
-            placeholder="Добавте повідомлення..."></textarea>
-          <input class="contact-us__input-btn" type="submit" value="Відправити">
-        </form>
-      </div>
-    </section>
-  </main>
+        <div class="about__work-card">
+          <h2 class="about__work-title">Стріт фото</h2>
+          <img class="about__work-img" src="img/about-work2.jpg" alt="work-img" />
+        </div>
 
-  <footer class="footer">
-    <a class="scrollo-up__buton" href="#menu__toggle">
-      <img class="scrollo-up__buton-img" src="img/up-button.svg" alt="up button">
-      <p class="scrollo-up__buton-text">Наверх</p>
-    </a>
-    <p class="footer__disc">Сайт створено учнем SoftServe Academy, 2023</p>
-  </footer>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-  <script src="script.js"></script>
-</body>
+        <div class="about__work-card">
+          <h2 class="about__work-title">Весільна фотографія</h2>
+          <img class="about__work-img" src="img/about-work3.jpg" alt="work-img" />
+        </div>
 
+        <div class="about__work-card">
+          <h2 class="about__work-title">Дні народження</h2>
+          <img class="about__work-img" src="img/about-work4.jpg" alt="work-img" />
+        </div>
+      </section>
+
+      <section class="gallery">
+        <h2 class="gallery__title">Галерея</h2>
+
+        <div class="image-slider swiper-container">
+          <div class="image-slider__wrapper swiper-wrapper">
+            <div class="image-slider__slide swiper-slide">
+              <div class="image-slider__image">
+                <img class="slider-image" src="img/gallery1.jpg" alt="img" />
+              </div>
+            </div>
+
+            <div class="image-slider__slide swiper-slide">
+              <div class="image-slider__image">
+                <img class="slider-image" src="img/gallery2.jpg" alt="img" />
+              </div>
+            </div>
+
+            <div class="image-slider__slide swiper-slide">
+              <div class="image-slider__image">
+                <img class="slider-image" src="img/gallery3.jpg" alt="img" />
+              </div>
+            </div>
+
+            <div class="image-slider__slide swiper-slide">
+              <div class="image-slider__image">
+                <img class="slider-image" src="img/gallery4.jpg" alt="img" />
+              </div>
+            </div>
+
+            <div class="image-slider__slide swiper-slide">
+              <div class="image-slider__image">
+                <img class="slider-image" src="img/gallery5.jpg" alt="img" />
+              </div>
+            </div>
+
+            <div class="image-slider__slide swiper-slide">
+              <div class="image-slider__image">
+                <img class="slider-image" src="img/gallery6.jpg" alt="img" />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <section class="contact-us">
+        <img class="contact-us__img" src="img/contact-us.jpg" alt="img contact" />
+
+        <div class="contact-us-container">
+          <div id="contacts">
+            <h2 class="contacts__title">Зв'яжіться з нами</h2>
+            <span class="header__line contact__line"></span>
+
+            <p class="contact__address-link__location">Via Privata Asti, 5, Milan, Italy</p>
+
+            <div class="contacts__address">
+              <img
+                class="contact__address-img"
+                src="https://cdn-icons-png.flaticon.com/512/455/455705.png"
+                alt="contact-img" />
+              <a class="contact__address-link" href="tel:+393881117064">+39 (388) 111-79-64</a>
+            </div>
+
+            <div class="contacts__address">
+              <img
+                class="contact__address-img"
+                src="https://cdn-icons-png.flaticon.com/512/3178/3178158.png"
+                alt="contact-img" />
+              <a class="contact__address-link" href="mailto:andriy.boyko35@gmail.com"
+                >andriy.boyko35@gmail.com</a
+              >
+            </div>
+
+            <div class="contacts__address">
+              <img
+                class="contact__address-img"
+                src="https://cdn-icons-png.flaticon.com/512/1384/1384015.png"
+                alt="contact-img" />
+              <a
+                class="contact__address-link"
+                href="https://instagram.com/andreaboykoph?igshid=YmMyMTA2M2Y="
+                >andreaboykoph</a
+              >
+            </div>
+          </div>
+
+          <form class="contact-us__form" action="https://formspree.io/f/mqkoevaz" method="post">
+            <input
+              class="contact-us__input"
+              type="text"
+              name="name"
+              placeholder="Ваше ім'я"
+              required />
+            <input
+              class="contact-us__input"
+              type="email"
+              name="email"
+              placeholder="Ел. пошта"
+              required />
+            <input
+              class="contact-us__input"
+              type="tel"
+              name="tel"
+              placeholder="Номер телефона"
+              required />
+            <textarea
+              class="contact-us__input contact-us__text-area"
+              name="mess"
+              cols="5"
+              rows="5"
+              placeholder="Добавте повідомлення..."></textarea>
+            <input class="contact-us__input-btn" type="submit" value="Відправити" />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a class="scrollo-up__buton" href="#menu__toggle">
+        <img class="scrollo-up__buton-img" src="img/up-button.svg" alt="up button" />
+        <p class="scrollo-up__buton-text">Наверх</p>
+      </a>
+      <p class="footer__disc">Сайт створено учнем SoftServe Academy, 2023</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
